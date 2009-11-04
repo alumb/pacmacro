@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>This is a geolocation</title>
+	<script type="text/javascript">
+		PacMacro = {};
+		</script>
+	<script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAAsoId6vcYTryAHuA5N6tF-RQ-AQXfUoj-fxZyucz622sI5Pq9BBRe13pAt9n09tcqGEiH3Zzia12kVA"></script>
+	<script type="text/javascript" src="geolocation.js"></script>
+	<script type="text/javascript">
+		google.load("maps", "2", {"other_params":"sensor=true"});
+		function init() {
+			PacMacro.geolocationModel.init();
+			
+		}
+	</script>
+</head>
+<body onload="init()">
+<h1>Geolocation test</h1>
+
+<div id="location">-</div>
+
+<div id="map" style="height:600px;">-</div>
+
+</body>
+</html>
