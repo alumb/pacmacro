@@ -1,0 +1,1 @@
+The game is PacMacro, the live action version of PacMan. We select a 5x6 block area of a major metropolitan area and play PacMan on a large scale. On the street we have the ghosts: Inky, Blinky, Pinky, and Clyde all chasing down the ever elusive PacMan.
